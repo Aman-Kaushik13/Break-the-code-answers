@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  scroll-behavior: block;
+  padding: 0;
+}
+#body-content {
+  font-family: "Work Sans";
+  background-color: #f4a261;
+}
+
+#mytitle {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+#nav-title {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#nav-container {
+  height: 180px;
+  color: white;
+  background-color: #14213d;
+  border-radius: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  box-shadow: 1px 1px 8px 5px rgb(206, 107, 67);
+
+  transition: transform 0.2s; /* Animation */
+}
+
+#nav-container:hover {
+  transform: scale(1.1);
+}
+
+#details {
+  height: 240px;
+  margin-left: 240px;
+  margin-top: 50px;
+  width: 38rem;
+  background-color: #e76f51;
+  margin: 40px auto; /* "auto" will center block elements */
+  display: block;
+}
+
+#image {
+  margin-top: -110px;
+  height: 250px;
+}
+
+#image img {
+  height: 120px;
+
+  display: block;
+}
+
+.list-group {
+  height: 220px;
+  margin-left: 200px;
+  margin-top: 120px;
+  width: 38rem;
+  padding-top: -40px;
+  text-align: start and right;
+  background-color: #e76f51;
+  transition: transform 0.3s;
+}
+.list-group:hover {
+  transform: scale(1.05);
+}
+
+.list-group img {
+  height: 180px;
+
+  display: block;
+}
+
+footer {
+  background-color: #264653;
+  height: 180px;
+  margin-top: 5rem;
+  text-align: right;
+  color: white;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.list-group-item {
+  text-align: right;
+  margin-bottom: -150px;
+}
